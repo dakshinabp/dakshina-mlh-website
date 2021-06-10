@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    title = "Name's Portfolio"
+    title = "Dakshina's Portfolio"
     return render_template("index.html", title=title)
 
 @app.route('/about')
