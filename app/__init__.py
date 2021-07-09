@@ -1,9 +1,7 @@
 import os
 from dotenv import load_dotenv
 from flask import Flask, request, render_template
-#from . import db
 from werkzeug.security import generate_password_hash
-#from app.db import get_db
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 
