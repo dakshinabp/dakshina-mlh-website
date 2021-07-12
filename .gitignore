@@ -7,3 +7,4 @@ vendor
 __pycache__
 python3-virtualenv
 .DS_Store
+.env
