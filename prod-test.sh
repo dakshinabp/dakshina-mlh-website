@@ -12,6 +12,6 @@ for i in ${url[@]}; do
         curl -s -X POST "$1" -d "content=🚀 Deployment Successful"
     else
         echo "1"
-        curl -s -X POST "$1" -d "content=😒 Deployment unsucessful"
+        curl -s -X POST "$1" -d "content=Deployment unsuccessful"
     fi
 done
